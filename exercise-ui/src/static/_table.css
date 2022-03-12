@@ -1,0 +1,39 @@
+table {
+    margin: 0 auto;
+    border:none;
+    border-collapse: collapse;
+    width: 70vw;
+    
+    
+    
+}
+
+td, th {
+    border: .5px solid #ddd;
+    padding: 8px;
+    color: #3b60e4;
+    font-weight: 800;
+    background: #b8b8ff;
+    
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2;}
+  
+  tr:hover {background-color: #ddd;}
+  
+  th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #7765e3;
+    color: white;
+  } 
+/* 
+  th:first-child {
+      border-radius: 20px 0 0 0;
+  }
+  
+  th:last-child {
+      border-radius: 0 20px 0 0;
+  } */
+

@@ -1,0 +1,44 @@
+body {
+    background: #f8f7ff;
+    font-family: quatro-slab, serif;
+    color: #7765e3;
+}
+
+h1 {
+    text-align: center;
+    color: #f8f7ff;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    z-index: 99;
+    width: 100vw;
+}
+
+h1.banner {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5vmin;
+    width: 100vw;
+} 
+
+
+footer {
+    color: rgb(63,94,251);
+    background: rgba(255, 255, 255,.5);
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    height: 5%;
+    width: 100%;
+  
+  
+  }

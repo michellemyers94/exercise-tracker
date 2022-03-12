@@ -1,0 +1,17 @@
+.navbar {
+    padding: 1em;
+    text-align: center;
+}
+
+.Nav-link {
+    text-decoration: none;
+    padding: .8em 2em;
+    justify-content: space-evenly;
+    font-weight: 600;
+    font-size: x-large;
+    color: #7765e3;
+}
+
+.Nav-link:hover {
+    color: #3b60e4;
+}
